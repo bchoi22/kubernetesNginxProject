@@ -1,4 +1,4 @@
-# kubernetesNginxProject
+# Kubernetes project with Nginx nodes
 
 This project is a work-in-progress.  Although the 'kubectl get deployments' command works (it shows the nginx deployments in the kubernetes cluster and in a running state), the problem is that I'm still having an issue connecting the ALB to the private instances housing my eks cluster.  The ALB, although deployed, is not connecting to my target groups.  I believe the issue is that the NAT is not allocating the proper public ip for the private one.  One of the ways to address this is, I believe, is to break everything out to include defining the route tables.
 
