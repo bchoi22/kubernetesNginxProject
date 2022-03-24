@@ -43,3 +43,4 @@ NAME         READY   UP-TO-DATE   AVAILABLE   AGE
 search-api   2/2     2            2           15s
 graph-api    2/2     2            2           15s
 
+16. Still need to connect the ALB to NATs within the public subnets properly so that the search.altana.ai and graph.altana.ai hostnames can be reached.  TBD.
