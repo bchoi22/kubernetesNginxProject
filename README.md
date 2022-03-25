@@ -31,7 +31,7 @@ Default output format [None]: json
 11. aws eks --region $(terraform output -raw region) update-kubeconfig --name $(terraform output -raw cluster_name)
 Do this to configure kubectl with your credentials
 
-12. cd eks-nginx
+12. cd .. , then cd eks-nginx
 
 13. terraform init
 
